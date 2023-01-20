@@ -9,11 +9,13 @@ import Products from './components/Products/Products';
 function App() {
   return (
     <div>
-      <Header />
-      <HomeText />
-      <Products />
+      <BrunchyProvider>
+        <Header />
+        <HomeText />
+        <Products />
 
-      
+
+      </BrunchyProvider>
     </div>
   );
 }
