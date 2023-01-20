@@ -19,6 +19,25 @@ const Products = ({ setOrderModal, setBasketModal, basketModal }) => {
         dispatch({ type: 'CART_ADD_ITEM', payload: { ...product, quantity } });
     }
 
+    // const [startPosition, setStartPosition] = useState(0);
+    // const [endPosition, setEndPosition] = useState(0);
+
+    // const scrollRef = useRef(null);
+
+    // const mouseDown = (e) => {
+    //     setStartPosition(e.clientX);
+    // }
+
+    // const mouseUp = (e) => {
+    //     setEndPosition(e.clientX);
+    // }
+
+    // const scroll = (n) => {
+    //     scrollRef.current.scrollLeft += (startPosition - endPosition);
+    // }
+
+    //ref={scrollRef} onMouseDown={mouseDown} onMouseUp={mouseUp} onClick={scroll}
+
     return (
         <>
             <div className="main-product-div">

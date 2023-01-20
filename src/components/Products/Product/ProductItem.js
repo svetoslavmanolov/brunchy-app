@@ -6,7 +6,7 @@ const Product = ({ product, addToCartHandler }) => {
         <>
             <div className="inner-product-div">
                 <div className='product-pic'>
-                    <img className="" src={product.image} alt="" />
+                    <img className="" src={product.image} alt="product-image" />
                 </div>
                 <div className="product-info-div">
                     <div className="typography-div">
@@ -21,7 +21,6 @@ const Product = ({ product, addToCartHandler }) => {
                     </button>
                 </div>
             </div>
-
         </>
     );
 }
