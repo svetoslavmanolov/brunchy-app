@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Brunchy - simple delivery app of brunch meals
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with [Create React App](https://create-react-app.dev/).
 
-## Available Scripts
+## Used tools
 
-In the project directory, you can run:
+- [UUID] (https://www.npmjs.com/package/react-uuid)
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone this repository and install dependencies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+...> git clone https://github.com/svetoslavmanolov/brunchy-app
+...> npm install
 
-### `npm test`
+## To start the app, you must run the following command in your terminal:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+...> npm start
 
-### `npm run build`
+Open [http://localhost:3000] to view it in your browser. The page will reload when you make changes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### There is а created 'data.json' file in the 'src' folder with specified information regarding all brunches. You can change ONLY the value of every property. To add a new image you must put a new one in folder 'public/images'
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Example for one item:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        {
+            "name": "Butter Pancakes",
+            "caption": "With honey",
+            "price": 14.5,
+            "image": "images/1-butter-pancakes.png"
+        }
 
-### `npm run eject`
+### How app is working:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+First you have to select your favorive brunches and it happens when click on the 'basket' button on each product you want. A total amount will be displayed and you can continue to add more products or order already selected products. If you would like to see what you have ordered so far you have to click on the 'basket' button at the bottom of the page. Once you are ready with all desired products, all you have to do is to click the 'Order Now' button and your BRUNCH will be on its way to you. And don't worry if you forgot to order some brunch, you can make multiple orders.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
