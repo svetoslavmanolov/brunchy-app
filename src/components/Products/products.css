@@ -1,0 +1,95 @@
+.main-product-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    margin-left: 140px;
+    max-width: 100%;
+    height: 304px;
+    overflow-x: scroll;
+    overflow-y: auto;
+    scrollbar-width: none;
+    cursor: grab;
+
+    /* -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none; */
+}
+
+.main-product-div::-webkit-scrollbar {
+    display: none;
+}
+
+.main-product-div>div:not(:last-child) {
+    margin-right: 30px;
+}
+
+/*-----------------------------Order Now div-------*/
+
+.main-order-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 476px;
+    height: 81px;
+    border-radius: 15px;
+    background-color: #F9F6F6;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.basket-wrapper-div {
+    width: 30px;
+    height: 30px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+.basket-wrapper-div img {
+    float: center;
+    width: auto;
+    height: 100%;
+}
+
+.order-price-wrapper {
+    font-weight: bolder;
+    font-family: 'Poppins';
+    font-size: 24px;
+}
+
+.order-now-button {
+    background-color: #FF8515;
+    border: none;
+    padding: 12px 30px 12px 30px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 830px) {
+    .main-product-div {
+        margin-left: 56px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .main-order-wrapper {
+        width: 350px;
+    }
+
+    .order-now-button {
+        margin-right: 20px;
+        padding: 12px 20px 12px 20px;
+    }
+
+    .main-product-div {
+        margin-left: 44px;
+    }
+}
