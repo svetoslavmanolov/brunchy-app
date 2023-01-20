@@ -1,0 +1,122 @@
+/*-----------------------MAIN DIV-----------*/
+.main-header-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*---------------------LOGO---------*/
+.header-text-div {
+    margin-left: 140px;
+    margin-top: 36px;
+    width: 342px;
+    height: 64px;
+}
+
+.brunchy {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 65px;
+    color: #363636;
+}
+
+/*---------------------NAVIGATION BUTTONS---------*/
+.navigation-header {
+    display: flex;
+    justify-content: space-between;
+    width: 341px;
+    height: 55px;
+    margin-top: 45px;
+    margin-right: 74px;
+}
+
+.about {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+}
+
+.call-us {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    color: #797979;
+}
+
+/*----------------------------FREE DELIVERY--------*/
+.free-delivery-div {
+    width: 184px;
+    height: 55px;
+    position: relative;
+}
+
+.test-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    justify-content: space-between;
+    background: #FFE5CD;
+    position: absolute;
+    top: 49%;
+    -ms-transform: translateY(-51%);
+    transform: translateY(-51%);
+    border-radius: 50px;
+}
+
+.free-delivery-inner-div {
+    width: 123px;
+    top: 50%;
+}
+
+.free-delivery-text {
+    margin-left: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    color: #F17C0F;
+}
+
+.image-1 {
+    width: 40px;
+    height: 35px;
+}
+
+.free-delivery-img-div {
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 830px) {
+    .header-text-div {
+        margin-left: 56px;
+        margin-top: 34px;
+        width: 342px;
+        height: 64px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .header-text-div {
+        margin-left: 44px;
+        margin-top: 34px;
+        width: 342px;
+        height: 64px;
+    }
+
+    .navigation-header {
+        display: block;
+    }
+
+    .navigation-header p {
+        display: flex;
+    }
+}
