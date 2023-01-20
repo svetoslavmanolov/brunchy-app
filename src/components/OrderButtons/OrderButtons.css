@@ -1,0 +1,53 @@
+/*-----------------------------Order Now div-------*/
+
+.main-order-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 476px;
+    height: 81px;
+    border-radius: 15px;
+    background-color: #F9F6F6;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.basket-wrapper-div {
+    width: 30px;
+    height: 30px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+.basket-wrapper-div img {
+    float: center;
+    width: auto;
+    height: 100%;
+}
+
+.order-price-wrapper {
+    font-weight: bolder;
+    font-family: 'Poppins';
+    font-size: 24px;
+}
+
+.order-now-button {
+    background-color: #FF8515;
+    border: none;
+    padding: 12px 30px 12px 30px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 430px) {
+    .main-order-wrapper {
+        width: 350px;
+    }
+}
