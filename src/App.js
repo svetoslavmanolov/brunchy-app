@@ -8,10 +8,10 @@ import HomeText from './components/HomeText/HomeText';
 import Products from './components/Products/Products';
 import Congratulations from './components/Congratulations/Congratulations';
 import BasketReview from "./components/BasketReview/BasketReview";
-import OrderButtons from './components/OrderButtons/OrderButtons';
+// import OrderButtons from './components/OrderButtons/OrderButtons';
 
 function App() {
-  
+
   const [orderModal, setOrderModal] = useState(false);
   const [basketModal, setBasketModal] = useState(false);
 
