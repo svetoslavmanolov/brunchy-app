@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/svetoslavmanolov/brunchy-app/compare/v0.2.0...v0.2.1) (2023-01-20)
+
+
+### Features
+
+*  modal component for successfully completed order ([3dd5075](https://github.com/svetoslavmanolov/brunchy-app/commit/3dd507592a4b2dd34c7be582ffe4d2b97a4e8335))
+* create Basket modal component to review products in basket ([2199cba](https://github.com/svetoslavmanolov/brunchy-app/commit/2199cba050a8134caa3e5c505296ca34b31e7ec0))
+
 ## [0.2.0](https://github.com/svetoslavmanolov/brunchy-app/compare/v0.1.3...v0.2.0) (2023-01-20)
 
 
