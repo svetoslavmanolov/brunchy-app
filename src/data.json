@@ -1,0 +1,46 @@
+{
+    "items": [
+        {
+            "name": "Butter Pancakes",
+            "caption": "With honey",
+            "price": 14.5,
+            "image": "images/1-butter-pancakes.png"
+        },
+        {
+            "name": "Avocado Toast",
+            "caption": "2 pieces",
+            "price": 16.5,
+            "image": "images/2-avocado-toast.png"
+        },
+        {
+            "name": "Sweet Yogurt",
+            "caption": "With strawberries",
+            "price": 5.0,
+            "image": "images/3-sweet-yogurt.png"
+        },
+        {
+            "name": "Peanut Toast",
+            "caption": "With butter",
+            "price": 9.5,
+            "image": "images/4-peanut-toast.png"
+        },
+        {
+            "name": "French Toast",
+            "caption": "With butter and jam",
+            "price": 9.5,
+            "image": "images/5-french-toast.png"
+        },
+        {
+            "name": "Banana Bread",
+            "caption": "With blueberries",
+            "price": 5.5,
+            "image": "images/6-banana-bread.png"
+        },
+        {
+            "name": "Classic Waffle",
+            "caption": "With ice cream",
+            "price": 7.5,
+            "image": "images/7-classic-waffle.png"
+        }
+    ]
+}
