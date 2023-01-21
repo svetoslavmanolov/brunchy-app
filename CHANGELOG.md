@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.3](https://github.com/svetoslavmanolov/brunchy-app/compare/v0.2.2...v0.2.3) (2023-01-21)
+
+
+### Features
+
+* add scroll functionality to products section ([4ef00a0](https://github.com/svetoslavmanolov/brunchy-app/commit/4ef00a02d4757bde309f96b8cadd886cc274d1d4))
+
+
+### Bug Fixes
+
+* fix bug related to scrolling of products ([87a8a6d](https://github.com/svetoslavmanolov/brunchy-app/commit/87a8a6d630f3b4541d2b4da28b0f211b2fe58b5a))
+* fix scroll functionality of products ([7ba898e](https://github.com/svetoslavmanolov/brunchy-app/commit/7ba898ed362d8c70d4f7e7916c964fe918ba3760))
+
 ### [0.2.2](https://github.com/svetoslavmanolov/brunchy-app/compare/v0.2.1...v0.2.2) (2023-01-20)
 
 ### [0.2.1](https://github.com/svetoslavmanolov/brunchy-app/compare/v0.2.0...v0.2.1) (2023-01-20)
